@@ -53,10 +53,11 @@ html{
   color: var(--text-color-primary);
   overflow-x: hidden;
 
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
 
 body{
+  overflow-x: hidden;
   background-color: var(--bg-color);
 }
 
